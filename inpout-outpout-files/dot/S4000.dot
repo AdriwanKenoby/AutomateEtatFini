@@ -1,0 +1,24 @@
+digraph G {
+	rankdir=LR;
+	label="S4"
+	init0 [shape=point];
+	init0 -> 0;
+	0 [shape=circle]
+	0 -> 1 [label="a/#"]
+	1 [shape=circle]
+	1 -> 4 [label="b/b"]
+	1 -> 2 [label="c/#"]
+	2 [shape=circle]
+	2 -> 3 [label="b/#"]
+	2 -> 5 [label="a/a"]
+	3 [shape=doublecircle]
+	3 -> 6 [label="c/c"]
+	4 [shape=circle]
+	4 -> 4 [label="b/#"]
+	4 -> 2 [label="c/#"]
+	5 [shape=circle]
+	5 -> 3 [label="b/#"]
+	5 -> 5 [label="a/#"]
+	6 [shape=doublecircle]
+	6 -> 6 [label="c/#"]
+}

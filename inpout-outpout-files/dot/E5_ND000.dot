@@ -1,0 +1,24 @@
+digraph G {
+	rankdir=LR;
+	label="E5_ND"
+	0 [shape=circle]
+	0 -> 4 [label="#/#"]
+	0 -> 2 [label="#/#"]
+	1 [shape=circle]
+	1 -> 7 [label="#/#"]
+	1 -> 0 [label="#/#"]
+	2 [shape=circle]
+	2 -> 3 [label="a/#"]
+	3 [shape=circle]
+	3 -> 1 [label="#/#"]
+	4 [shape=circle]
+	4 -> 5 [label="b/#"]
+	5 [shape=circle]
+	5 -> 1 [label="#/#"]
+	init6 [shape=point];
+	init6 -> 6;
+	6 [shape=circle]
+	6 -> 7 [label="#/#"]
+	6 -> 0 [label="#/#"]
+	7 [shape=doublecircle]
+}

@@ -1,0 +1,14 @@
+C 'S2 : papa+maman'
+V "apmn"
+O "HF"
+E 9
+F 4
+T 0 'p' 1
+T 1 'a' 2
+T 2 'p' 3
+T 3 'a' 4 'H'
+T 0 'm' 5
+T 5 'a' 6
+T 6 'm' 7
+T 7 'a' 8
+T 8 'n' 4 'F'

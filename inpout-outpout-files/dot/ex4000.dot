@@ -1,0 +1,27 @@
+digraph G {
+	rankdir=LR;
+	label="ex4"
+	init0 [shape=point];
+	init0 -> 0;
+	0 [shape=circle]
+	0 -> 4 [label="#/#"]
+	0 -> 1 [label="#/#"]
+	1 [shape=circle]
+	1 -> 2 [label="b/#"]
+	2 [shape=circle]
+	2 -> 4 [label="#/#"]
+	2 -> 1 [label="#/#"]
+	2 -> 3 [label="a/#"]
+	3 [shape=circle]
+	3 -> 7 [label="#/#"]
+	4 [shape=circle]
+	4 -> 5 [label="a/#"]
+	5 [shape=circle]
+	5 -> 6 [label="b/#"]
+	6 [shape=circle]
+	6 -> 4 [label="#/#"]
+	6 -> 7 [label="#/#"]
+	7 [shape=circle]
+	7 -> 8 [label="a/#"]
+	8 [shape=doublecircle]
+}

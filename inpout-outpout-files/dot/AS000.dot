@@ -1,0 +1,15 @@
+digraph G {
+	rankdir=LR;
+	label="AS"
+	init0 [shape=point];
+	init0 -> 0;
+	0 [shape=doublecircle]
+	0 -> 2 [label="p/p"]
+	0 -> 1 [label="m/m"]
+	1 [shape=doublecircle]
+	1 -> 2 [label="p/p"]
+	1 -> 1 [label="m/#"]
+	2 [shape=doublecircle]
+	2 -> 2 [label="p/#"]
+	2 -> 1 [label="m/m"]
+}

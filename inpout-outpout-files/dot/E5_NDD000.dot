@@ -1,0 +1,15 @@
+digraph G {
+	rankdir=LR;
+	label="E5_NDD"
+	012347 [shape=doublecircle]
+	012347 -> 012457 [label="b/#"]
+	012347 -> 012347 [label="a/#"]
+	012457 [shape=doublecircle]
+	012457 -> 012457 [label="b/#"]
+	012457 -> 012347 [label="a/#"]
+	init02467 [shape=point];
+	init02467 -> 02467;
+	02467 [shape=doublecircle]
+	02467 -> 012457 [label="b/#"]
+	02467 -> 012347 [label="a/#"]
+}

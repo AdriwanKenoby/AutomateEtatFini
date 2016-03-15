@@ -1,0 +1,23 @@
+digraph G {
+	rankdir=LR;
+	label="ND01D"
+	init01238 [shape=point];
+	init01238 -> 01238;
+	01238 [shape=circle]
+	01238 -> 569 [label="b/#"]
+	01238 -> 78 [label="c/#"]
+	01238 -> 49 [label="a/#"]
+	10 [shape=doublecircle]
+	49 [shape=circle]
+	49 -> 59 [label="b/#"]
+	49 -> 10 [label="a/#"]
+	569 [shape=circle]
+	569 -> 78 [label="b/#"]
+	569 -> 10 [label="a/#"]
+	59 [shape=circle]
+	59 -> 10 [label="a/#"]
+	78 [shape=circle]
+	78 -> 9 [label="a/#"]
+	9 [shape=circle]
+	9 -> 10 [label="a/#"]
+}

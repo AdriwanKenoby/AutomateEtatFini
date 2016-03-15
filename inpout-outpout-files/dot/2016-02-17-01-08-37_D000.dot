@@ -1,0 +1,23 @@
+digraph G {
+	rankdir=LR;
+	label="2016-02-17-01-08-37_D"
+	init0 [shape=point];
+	init0 -> 0;
+	0 [shape=circle]
+	0 -> 110246789 [label="a/#"]
+	1039 [shape=circle]
+	1039 -> 11121617 [label="d/#"]
+	104579 [shape=circle]
+	104579 -> 11121617 [label="d/#"]
+	104579 -> 104579 [label="c/#"]
+	110246789 [shape=circle]
+	110246789 -> 11121617 [label="d/#"]
+	110246789 -> 1039 [label="b/#"]
+	110246789 -> 104579 [label="c/#"]
+	11121617 [shape=doublecircle]
+	11121617 -> 1314 [label="a/#"]
+	121517 [shape=doublecircle]
+	121517 -> 1314 [label="a/#"]
+	1314 [shape=circle]
+	1314 -> 121517 [label="b/#"]
+}

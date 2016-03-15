@@ -1,0 +1,8 @@
+digraph G {
+	rankdir=LR;
+	label="Mini"
+	init0 [shape=point];
+	init0 -> 0;
+	0 [shape=doublecircle]
+	0 -> 0 [label="a/#"]
+}

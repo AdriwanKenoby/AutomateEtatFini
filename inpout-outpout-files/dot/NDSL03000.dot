@@ -1,0 +1,13 @@
+digraph G {
+	rankdir=LR;
+	label="NDSL03"
+	init0 [shape=point];
+	init0 -> 0;
+	0 [shape=circle]
+	0 -> 1 [label="a/#"]
+	0 -> 0 [label="a/#"]
+	1 [shape=circle]
+	1 -> 1 [label="b/#"]
+	1 -> 2 [label="b/#"]
+	2 [shape=doublecircle]
+}

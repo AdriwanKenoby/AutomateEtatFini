@@ -1,0 +1,22 @@
+digraph G {
+	rankdir=LR;
+	label="ex4_D"
+	init014 [shape=point];
+	init014 -> 014;
+	014 [shape=circle]
+	014 -> 124 [label="b/#"]
+	014 -> 5 [label="a/#"]
+	124 [shape=circle]
+	124 -> 124 [label="b/#"]
+	124 -> 357 [label="a/#"]
+	357 [shape=circle]
+	357 -> 467 [label="b/#"]
+	357 -> 8 [label="a/#"]
+	467 [shape=circle]
+	467 -> 58 [label="a/#"]
+	5 [shape=circle]
+	5 -> 467 [label="b/#"]
+	58 [shape=doublecircle]
+	58 -> 467 [label="b/#"]
+	8 [shape=doublecircle]
+}
