@@ -9,10 +9,12 @@ commande
 
 opérations
   -d : applique l'algorithme de détermination d'un automate
+  
   -c : complète l'automate
 
 entrées
   -f : prend le nom du fichier .descr pour construire l'automate
+  
   -r : prend une expression rationnelle pour construire l'automate
 les opérateurs pris en charges sont le ET '.' le OU '|' et '*'
 mettre la chaîne de caractères entre quottes ou guillemets pour que l'interpréteur
