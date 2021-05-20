@@ -27,7 +27,7 @@ import java.util.TreeSet;
  */
 public class AEF {
 
-    static final String DOSSIER = "inpout-outpout-files",
+    public static final String DOSSIER = "io",
             DESCR = "descr",
             DOT = "dot",
             PNG = "png",

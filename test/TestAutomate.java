@@ -51,8 +51,8 @@ public class TestAutomate {
                         aef.E.toImg();
 
                         s = "temps pour instancier l'objet automate " + aef.E.fileName + " en memoire " + " : " + (Tf - Ti) + "ms\n"
-                                + "Vous pouvez visualiser l'automate : inpout-outpout-files/png/" + aef.E.fileName + "000.png\n"
-                                + "Le fichier dot associer : inpout-outpout-files/dot/" + aef.E.fileName + "000.dot\n";
+                                + "Vous pouvez visualiser l'automate : " + AEF.DOSSIER + '/' + AEF.DOT + '/' + aef.E.fileName + "000.png\n"
+                                + "Le fichier dot associer : " + AEF.DOSSIER + '/' + AEF.DOT + '/' + aef.E.fileName + "000.dot\n";
                         System.out.println(s);
                     }
                     ++i;
@@ -76,8 +76,8 @@ public class TestAutomate {
                         aef.E.toImg();
 
                         s = "temps pour instancier l'objet automate " + aef.E.fileName + " en memoire a partir de l'expression reguliere : " + args[i + 1] + " : " + (Tf - Ti) + "ms\n"
-                                + "Vous pouvez visualiser l'automate : inpout-outpout-files/png/" + aef.E.fileName + "000.png\n"
-                                + "Le fichier dot associer : inpout-outpout-files/dot/" + aef.E.fileName + "000.dot\n";
+                                + "Vous pouvez visualiser l'automate : " + AEF.DOSSIER + '/' + AEF.DOT + '/' + aef.E.fileName + "000.png\n"
+                                + "Le fichier dot associer : " + AEF.DOSSIER + '/' + AEF.DOT + '/' + aef.E.fileName + "000.dot\n";
                         System.out.println(s);
                     }
                     ++i;
@@ -115,8 +115,8 @@ public class TestAutomate {
                 aef.E.toImg();
 
                 s = "temps pour detereminiser l'automate : " + (Tf - Ti) + "ms\n"
-                        + "Vous pouvez visualiser l'automate determiniser : inpout-outpout-files/png/" + aef.E.fileName + "000.png\n"
-                        + "Le fichier dot associer : inpout-outpout-files/dot/" + aef.E.fileName + "000.dot\n";
+                        + "Vous pouvez visualiser l'automate determiniser : " + AEF.DOSSIER + '/' + AEF.PNG + aef.E.fileName + "000.png\n"
+                        + "Le fichier dot associer : " + AEF.DOSSIER + '/' + AEF.DOT + '/' + aef.E.fileName + "000.dot\n";
                 System.out.println(s);
             }
 
@@ -129,20 +129,20 @@ public class TestAutomate {
 
                 aef.E.toImg();
                 s = "temps pour completer l'automate : " + (Tf - Ti) + "ms\n"
-                        + "Vous pouvez visualiser l'automate complet : inpout-outpout-files/png/" + aef.E.fileName + "000.png\n"
-                        + "Le fichier dot associer : inpout-outpout-files/dot/" + aef.E.fileName + "000.dot\n";
+                        + "Vous pouvez visualiser l'automate complet : " + AEF.DOSSIER + '/' + AEF.PNG + '/' + aef.E.fileName + "000.png\n"
+                        + "Le fichier dot associer : " + AEF.DOSSIER + '/' + AEF.DOT + '/' + aef.E.fileName + "000.dot\n";
                 System.out.println(s);
             }
 
             if (export) {
                 aef.writeDescr();
-                s = "exportation au format .descr consultable : inpout-outpout-files/descr/" + aef.E.fileName + ".descr\n";
+                s = "exportation au format .descr consultable : " + AEF.DOSSIER + '/' + AEF.DESCR + aef.E.fileName + ".descr\n";
                 System.out.println(s);
             }
 
             if (lecture) {
                 aef.lire(new BufferedReader(new InputStreamReader(System.in)));
-                s = "parcours de l'automate lors de la lecture visualisble dans : inpout-outpout-files/gif/" + aef.E.fileName + "?.gif\n";
+                s = "parcours de l'automate lors de la lecture visualisble dans : " + AEF.DOSSIER + '/' +AEF.GIF + aef.E.fileName + "?.gif\n";
                 System.out.println(s);
             }
         }

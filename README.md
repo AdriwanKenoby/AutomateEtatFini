@@ -40,7 +40,7 @@ commande convert qui créé les fichiers .gif associé à la lecture d'un mot.
 Cette commande est utilisé lors de l'appel du script make_gif.sh pour crée un gif
 animé associé à la lecture d'un mot.
 
-Le répertoire /inpout-outpout-files et son arborescence doit être présente à l'endroit
+Le répertoire /io et son arborescence doit être présente à l'endroit
 de l’exécution, les chemins sont préciser en variables globales de l'objet AEF.java
 La syntaxe à respecter pour construire les expressions rationnelles doit toujours
 comporter l'opérateur de concaténation ( par soucis de simplicité du code ) .
